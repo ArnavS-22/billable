@@ -1,6 +1,6 @@
 # Billable
 
-**Demo:** https://www.loom.com/share/78096e6e3b224ae79e21cf224568ebc7
+**Demo:** https://www.loom.com/share/78096e6e3b224ae79e21cf224568ebc7    (Ends at 2:00)     
 
 **1. What it does**
 
