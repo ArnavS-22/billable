@@ -22,7 +22,7 @@ After Confirm, Billable acts across multiple apps. It checks Google Drive for th
 
 **4. External apps**
 
-Google Drive, Gmail, Google Sheets, and Slack.
+Google Drive, Gmail, Google Sheets, and Slack. Because Billable observes activity directly from the screen, it does not need to rely on many specialized app integrations to understand what the user is doing.
 
 **5. Economic value**
 
