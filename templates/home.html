@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Billable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f7f7f4;
+      color: #141413;
+      font-family: Geist, Inter, ui-sans-serif, system-ui, sans-serif;
+    }
+    .slide {
+      width: min(920px, calc(100vw - 64px));
+      min-height: min(560px, calc(100vh - 64px));
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 64px 72px;
+      background: #fff;
+      border: 1px solid #ebebe6;
+    }
+    .brand {
+      margin: 0 0 16px;
+      font-size: clamp(72px, 14vw, 128px);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      line-height: 0.95;
+    }
+    .line {
+      margin: 0;
+      max-width: 42ch;
+      color: #7a7a73;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.45;
+    }
+    a {
+      margin-top: 36px;
+      color: #7a7a73;
+      font-size: 13px;
+      text-decoration: none;
+    }
+    a:hover { color: #141413; }
+  </style>
+</head>
+<body>
+  <section class="slide">
+    <h1 class="brand">BILLABLE</h1>
+    <p class="line">It watches what you do and writes your hours so you can check them and send them.</p>
+    <a href="/app">Open the tray</a>
+  </section>
+</body>
+</html>
