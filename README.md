@@ -8,11 +8,11 @@ Billable is an AI agent for lawyers who forget to record small pieces of work. I
 
 **2. How it works**
 
-GUM observes activity on the screen and turns it into text. Billable looks for concrete clues like client names, file names, and words showing what work is happening. What makes Billable unique is that it creates structured observations from what the user is doing and evaluates each observation for enough evidence before taking action. (See Section 6 for the evaluation process.)
-
+GUM observes activity on the screen and turns it into text. Billable looks for concrete clues like client names, file names, and words showing what work is happening. 
 It then decides who the work is for and whether enough meaningful work happened. If two clients appear or there isn't enough evidence, it stops instead of guessing.
 
-When confident, it creates a draft with the client, time, and description of the work. The user can Confirm or Hold it.
+When confident, it creates a draft with the client, time, and description of the work. The user can Confirm or Hold it. What makes Billable unique is that it creates structured observations from what the user is doing and evaluates each observation for enough evidence before taking action. (See Section 6 for the evaluation process.)
+
 
 **3. The agentic workflow**
 
