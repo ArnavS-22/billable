@@ -30,7 +30,7 @@ If a lawyer works for ten minutes but forgets to record those ten minutes, they 
 
 **6. Reliability**
 
-We tested four cases: a clear client, an unknown client, activity that is too short, and two conflicting clients. The agent only moves forward when it has enough evidence.
+We tested four cases: a clear client, an unknown client, activity that is too short, and two conflicting clients. The agent only moves forward when it has enough evidence. All four passed: it released the 18-minute Alpha LLC NDA markup as 0.3 hours of Document Drafting/Revision on matter 1000.001, and held a no-client memo, a 2-minute Alpha file, and a term sheet that named both Alpha and Gamma.
 
 After writing to Google Sheets, it reads the record back. If the information isn't there, the action is treated as a failure.
 
